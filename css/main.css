@@ -1,0 +1,155 @@
+* {
+    
+    font-family: 'Francois One', sans-serif;
+
+}
+
+body{
+    width:100%;
+  background-image:
+    linear-gradient(
+        #6495ED, #00BFFF, #DA70D6
+    );
+    
+}
+
+.logo{
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    height: 350px;
+    align-items: center
+}
+
+.start {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    font-size: 25px;
+    padding: 30px;
+    align-items: baseline ;
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    font-size: 25px;
+    padding: 30px;
+    align-items: baseline ;
+    color: white;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    font-size: 25px;
+    padding: 30px;
+    align-items: baseline ;
+    color: white;
+}
+
+.tema{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 2px;
+    font-size: 35px;
+    font-family: 'Francois One', sans-serif;
+    color:#F7B733;
+    flex-flow: column ;
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 90px;
+    padding: 2px;
+}
+a:hover {
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+@media all and (min-width: 768px) {
+
+    .tema{
+        display: flex;
+        text-align: center;
+        justify-content: flex-start;
+        font-size: 55px;
+        flex-flow: column ;
+        font-family: 'Francois One', sans-serif;
+        color: #F7B733
+    }
+       
+    .text span {
+        display: flex;
+       
+    }
+
+    .start {
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column wrap;
+        font-size: 25px;
+        padding: 30px;
+        align-items: baseline ;
+        color: white;
+    }
+
+    .center {
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column wrap;
+        font-size: 25px;
+        padding: 30px;
+        align-items: baseline ;
+        color: white;
+    }
+
+    .end {
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column wrap;
+        font-size: 25px;
+        padding: 30px;
+        align-items: baseline ;
+        color: white;
+    }
+
+    .logo {
+        padding: 5px;
+    }
+
+
+    .icone {
+        flex-flow: row wrap;
+        margin-bottom: 10px;
+        font-size: 14px;
+        color:#F7B733;
+        font-size: 90px;
+        padding: 2px;
+        cursor: pointer;
+    }
+    a:hover {
+        color: white;
+    }
+    a:link{
+        text-decoration: none;
+    }
+        
+    
+
+}
